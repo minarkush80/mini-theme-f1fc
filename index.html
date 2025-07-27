@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Languages by Native Speakers - Interactive Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="dashboard">
+        <!-- Header Section -->
+        <header class="dashboard-header">
+            <div class="container">
+                <h1>Languages by Native Speakers</h1>
+                <p class="subtitle">Interactive Dashboard of Global Linguistic Diversity</p>
+                
+                <!-- Summary Statistics -->
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-number" id="totalLanguages">40</div>
+                        <div class="stat-label">Languages Tracked</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" id="totalSpeakers">-</div>
+                        <div class="stat-label">Total Native Speakers</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" id="familyCount">-</div>
+                        <div class="stat-label">Language Families</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" id="worldCoverage">-</div>
+                        <div class="stat-label">World Population %</div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="dashboard-main">
+            <div class="container">
+                <!-- Controls Section -->
+                <div class="controls-section">
+                    <div class="control-group">
+                        <label for="searchInput" class="form-label">Search Languages</label>
+                        <input type="text" id="searchInput" class="form-control" placeholder="Search by language name...">
+                    </div>
+                    
+                    <div class="control-group">
+                        <label for="viewToggle" class="form-label">View</label>
+                        <select id="viewToggle" class="form-control">
+                            <option value="10">Top 10</option>
+                            <option value="20" selected>Top 20</option>
+                            <option value="40">Top 40</option>
+                        </select>
+                    </div>
+                    
+                    <div class="control-group">
+                        <label for="familyFilter" class="form-label">Language Family</label>
+                        <select id="familyFilter" class="form-control">
+                            <option value="">All Families</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Charts Section -->
+                <div class="charts-grid">
+                    <!-- Bar Chart -->
+                    <div class="chart-section">
+                        <div class="chart-header">
+                            <h3>Native Speakers by Language</h3>
+                            <p>Click on bars to view details</p>
+                        </div>
+                        <div class="chart-container" style="position: relative; height: 400px;">
+                            <canvas id="barChart"></canvas>
+                        </div>
+                    </div>
+
+                    <!-- Pie Chart -->
+                    <div class="chart-section">
+                        <div class="chart-header">
+                            <h3>Distribution by Language Family</h3>
+                            <p>Interactive family breakdown</p>
+                        </div>
+                        <div class="chart-container" style="position: relative; height: 400px;">
+                            <canvas id="pieChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Data Table and Detail Panel -->
+                <div class="data-section">
+                    <!-- Data Table -->
+                    <div class="table-section">
+                        <div class="table-header">
+                            <h3>Languages Data Table</h3>
+                            <p>Click column headers to sort</p>
+                        </div>
+                        <div class="table-container">
+                            <table id="languagesTable" class="data-table">
+                                <thead>
+                                    <tr>
+                                        <th data-sort="rank">Rank</th>
+                                        <th data-sort="language">Language</th>
+                                        <th data-sort="native_speakers">Native Speakers</th>
+                                        <th data-sort="family">Family</th>
+                                        <th data-sort="region">Region</th>
+                                        <th data-sort="percentage_world_pop">World %</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="tableBody">
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- Detail Panel -->
+                    <div class="detail-panel" id="detailPanel">
+                        <div class="detail-header">
+                            <h3>Language Details</h3>
+                            <button class="btn btn--secondary btn--sm" id="closeDetail">Close</button>
+                        </div>
+                        <div class="detail-content" id="detailContent">
+                            <p>Select a language from the chart or table to view detailed information.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Regional Analysis -->
+                <div class="chart-section">
+                    <div class="chart-header">
+                        <h3>Regional Distribution</h3>
+                        <p>Native speakers by geographic region</p>
+                    </div>
+                    <div class="chart-container" style="position: relative; height: 300px;">
+                        <canvas id="regionalChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

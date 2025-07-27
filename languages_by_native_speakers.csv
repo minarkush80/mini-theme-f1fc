@@ -1,0 +1,41 @@
+rank,language,native_speakers,family,region,countries,percentage_world_pop
+1,Mandarin Chinese,939237350,Sino-Tibetan,East Asia,"['China', 'Taiwan', 'Singapore']",11.74
+2,Spanish,485063960,Indo-European,"Europe, Americas","['Spain', 'Mexico', 'Colombia', 'Argentina', 'Peru', 'Venezuela', 'Chile', 'Ecuador', 'Guatemala', 'Cuba']",6.063
+3,English,379682200,Indo-European,"North America, Europe, Oceania","['United States', 'United Kingdom', 'Canada', 'Australia', 'New Zealand', 'Ireland']",4.746
+4,Arabic,373000000,Afro-Asiatic,"Middle East, North Africa","['Egypt', 'Saudi Arabia', 'Iraq', 'Algeria', 'Sudan', 'Morocco', 'Yemen', 'Syria']",4.662
+5,Hindi,344650870,Indo-European,South Asia,['India'],4.308
+6,Portuguese,236266650,Indo-European,"South America, Europe, Africa","['Brazil', 'Portugal', 'Angola', 'Mozambique']",2.953
+7,Bengali,233808880,Indo-European,South Asia,"['Bangladesh', 'India']",2.923
+8,Russian,146954150,Indo-European,"Eastern Europe, Asia","['Russia', 'Belarus', 'Kazakhstan']",1.837
+9,Japanese,123285670,Japonic,East Asia,['Japan'],1.541
+10,Western Punjabi (Lahnda),103000000,Indo-European,South Asia,"['Pakistan', 'India']",1.287
+11,Cantonese,86633370,Sino-Tibetan,East Asia,"['China', 'Hong Kong', 'Macau']",1.083
+12,Vietnamese,85023700,Austroasiatic,Southeast Asia,['Vietnam'],1.063
+13,Turkish,84010500,Turkic,"Western Asia, Eastern Europe","['Turkey', 'Cyprus']",1.05
+14,Wu Chinese,83300000,Sino-Tibetan,East Asia,['China'],1.041
+15,Marathi,83201270,Indo-European,South Asia,['India'],1.04
+16,Telugu,82966790,Dravidian,South Asia,['India'],1.037
+17,Indonesian,82200000,Austronesian,Southeast Asia,['Indonesia'],1.027
+18,Korean,81721540,Koreanic,East Asia,"['South Korea', 'North Korea']",1.022
+19,French,80770190,Indo-European,"Europe, Africa, North America","['France', 'Canada', 'Belgium', 'Switzerland', 'Congo', 'Madagascar']",1.01
+20,Tamil,78587030,Dravidian,South Asia,"['India', 'Sri Lanka', 'Singapore']",0.982
+21,German,75282080,Indo-European,Europe,"['Germany', 'Austria', 'Switzerland']",0.941
+22,Urdu,70555140,Indo-European,South Asia,"['Pakistan', 'India']",0.882
+23,Javanese,68278400,Austronesian,Southeast Asia,['Indonesia'],0.853
+24,Italian,64647380,Indo-European,Europe,"['Italy', 'Switzerland', 'San Marino']",0.808
+25,Persian (Farsi),57192350,Indo-European,Western Asia,"['Iran', 'Afghanistan', 'Tajikistan']",0.715
+26,Gujarati,57076220,Indo-European,South Asia,['India'],0.713
+27,Thai,56000000,Kra-Dai,Southeast Asia,['Thailand'],0.7
+28,Pashto,53800000,Indo-European,South/Central Asia,"['Afghanistan', 'Pakistan']",0.672
+29,Hausa,51000000,Afro-Asiatic,Africa,"['Nigeria', 'Niger', 'Ghana']",0.638
+30,Bhojpuri,51000000,Indo-European,South Asia,"['India', 'Nepal']",0.638
+31,Jin Chinese,48000000,Sino-Tibetan,East Asia,['China'],0.6
+32,Min Chinese,47000000,Sino-Tibetan,East Asia,"['China', 'Taiwan']",0.588
+33,Hakka Chinese,44000000,Sino-Tibetan,East Asia,"['China', 'Taiwan']",0.55
+34,Polish,40000000,Indo-European,Europe,['Poland'],0.5
+35,Kannada,38000000,Dravidian,South Asia,['India'],0.475
+36,Odia,37000000,Indo-European,South Asia,['India'],0.462
+37,Ukrainian,37000000,Indo-European,Eastern Europe,['Ukraine'],0.462
+38,Malayalam,34000000,Dravidian,South Asia,['India'],0.425
+39,Burmese,33000000,Sino-Tibetan,Southeast Asia,['Myanmar'],0.413
+40,Tagalog,28000000,Austronesian,Southeast Asia,['Philippines'],0.35
